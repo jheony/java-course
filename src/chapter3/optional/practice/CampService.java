@@ -1,4 +1,4 @@
-package chapter3.practice;
+package chapter3.optional.practice;
 
 import java.util.Optional;
 
