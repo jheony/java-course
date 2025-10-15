@@ -12,4 +12,9 @@ public class Cat implements Animal {
         System.out.println("야오오오오옹");
 
     }
+
+    public void scratch() {
+        System.out.println("긁기");
+
+    }
 }

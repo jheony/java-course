@@ -11,6 +11,9 @@ public class Dog implements Animal{
     @Override
     public void exist() {
         System.out.println("강아지가 존재합니다.");
+    }
 
+    public  void shake(){
+        System.out.println("꼬리흔들기");
     }
 }
