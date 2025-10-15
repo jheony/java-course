@@ -2,21 +2,23 @@ package chapter2.pracRamen;
 
 public class Main {
     public static void main(String[] args) {
-        Ramen jjajjaloni = new BlackRamen();
-        Ramen samyang = new Samyang();
+        Soup shin = new Shin();
+        Soup samyang = new Samyang();
 
-        jjajjaloni.noodle();
-        jjajjaloni.source();
+        shin.noodle();
+        shin.source();
 
         samyang.noodle();
         samyang.source();
 
-        StirFried newJjajjaloni = (StirFried) jjajjaloni;
-        Soup newSamyang = (Soup) samyang;
+        if (shin instanceof Shin newShin) {
+            newShin.spicy();
 
-        newJjajjaloni.skill();
+        } else {
+            System.out.println("이건 신라면이 아니야 !!!!!!");
+        }
+
+        Samyang newSamyang = (Samyang) samyang;
         newSamyang.water();
-
-
     }
 }
